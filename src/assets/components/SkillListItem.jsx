@@ -1,11 +1,9 @@
-import React from 'react'
-
 function SkillListItem() {
   return (
     <div>
-      <li>Skill List Item</li>
+      <li>SkillListItem</li>
     </div>
-  )
+  );
 }
 
-export default SkillListItem
+export default SkillListItem;
