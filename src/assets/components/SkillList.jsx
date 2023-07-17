@@ -1,9 +1,10 @@
 import React from "react";
 import SkillListItem from "./SkillListItem";
+import "./SkillList.css";
 
 function SkillList({ skills }) {
   return (
-    <div>
+    <div className="list">
       <ul>
         {skills.map((skill) => (
           <SkillListItem skills={skill} />

@@ -1,0 +1,19 @@
+.list-item {
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin-bottom: 10px;
+ list-style: none;
+ text-align: left;
+ padding: 10px 20px;
+ color: green;
+}
+
+.level {
+  float: right;
+  background-color: green;
+  height: auto;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
