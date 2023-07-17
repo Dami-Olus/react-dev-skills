@@ -6,6 +6,8 @@ function SkillList() {
     <div>
       <ul>
         <SkillListItem />
+        <SkillListItem />
+        <SkillListItem />
       </ul>
     </div>
   )
