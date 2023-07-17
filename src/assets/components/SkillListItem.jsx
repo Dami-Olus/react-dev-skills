@@ -1,7 +1,7 @@
-function SkillListItem() {
+function SkillListItem({skills}) {
   return (
     <div>
-      <li>SkillListItem</li>
+      <li>{skills.name} <span>{skills.level}</span></li>
     </div>
   );
 }

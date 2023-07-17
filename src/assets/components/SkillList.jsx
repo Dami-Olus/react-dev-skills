@@ -1,16 +1,16 @@
-import React from 'react'
-import SkillListItem from './SkillListItem'
+import React from "react";
+import SkillListItem from "./SkillListItem";
 
-function SkillList() {
+function SkillList({ skills }) {
   return (
     <div>
       <ul>
-        <SkillListItem />
-        <SkillListItem />
-        <SkillListItem />
+        {skills.map((skill) => (
+          <SkillListItem skills={skill} />
+        ))}
       </ul>
     </div>
-  )
+  );
 }
 
-export default SkillList
+export default SkillList;
