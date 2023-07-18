@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./NewSkillForm.css";
 
-function NewSkillForm() {
+function NewSkillForm({addNewSkill}) {
   const [skill, setSkill] = useState({ name: "", level: 3 });
   const handleSkillChange = (e) => {
     setSkill({
