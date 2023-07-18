@@ -1,7 +1,9 @@
+import "./NewSkillForm.css";
+
 function NewSkillForm() {
   return (
-    <div>
-      <form action="">
+    <div >
+      <form action="" className="NewSkillForm">
         <label htmlFor="">
           Skill
           <input type="text" />
@@ -17,7 +19,7 @@ function NewSkillForm() {
             <option value="">5</option>
           </select>
         </label>
-        <button>ADD SKILL</button>
+        <button className="button">ADD SKILL</button>
       </form>
     </div>
   );
