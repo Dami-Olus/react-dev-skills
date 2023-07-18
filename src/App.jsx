@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import NewSkillForm from './assets/components/NewSkillForm'
-import SkillList from './assets/components/SkillList'
+import NewSkillForm from './components/NewSkillForm'
+import SkillList from './components/SkillList'
 
 // const skills = [
 //   { name: "HTML", level: 5 },
@@ -20,12 +20,12 @@ function App() {
   ])
 
   return (
-    <>
-      <h1>React Dev Skills</h1>
+    <div className='App'>
+      <h1 className='teal-text'>React Dev Skills</h1>
       <SkillList skills={skills} />
       <hr />
       <NewSkillForm />
-    </>
+    </div>
   )
 }
 
